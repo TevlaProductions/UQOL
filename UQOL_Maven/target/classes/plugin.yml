@@ -1,0 +1,6 @@
+name: UQOL_Maven
+version: '1.0-SNAPSHOT'
+main: qol.plugin.uQOL_Maven.UQOL_Maven
+api-version: '1.21'
+authors: [ Infinity, Tevla ]
+description: A smp Balancing Plugin
