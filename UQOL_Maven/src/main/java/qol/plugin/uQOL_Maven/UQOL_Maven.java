@@ -7,6 +7,7 @@ public final class UQOL_Maven extends JavaPlugin {
     @Override
     public void onEnable() {
         // Plugin startup logic
+        //Says Hi to hudson
         System.out.println("Ultimate Quality of Life Plugin Started. Hello Hudson...");
         getServer().getPluginManager().registerEvents(new endcrystal(), this);
         getServer().getPluginManager().registerEvents(new WindChargeListener(), this);
@@ -19,6 +20,7 @@ public final class UQOL_Maven extends JavaPlugin {
     @Override
     public void onDisable() {
         // Plugin shutdown logic
+        //Says bye to hudson.
         System.out.println("Goodbye, hudson...");
     }
 }
