@@ -13,8 +13,9 @@ public final class UQOL_Maven extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new WindChargeListener(), this);
         getServer().getPluginManager().registerEvents(new Strength(), this);
         getServer().getPluginManager().registerEvents(new Gapples(), this);
-        getServer().getPluginManager().registerEvents(new ItemStackLimiter(), this
-        );
+        getServer().getPluginManager().registerEvents(new ItemStackLimiter(), this);
+        getServer().getPluginManager().registerEvents(new PlayerJoinEvent(),this);
+        getServer().getPluginManager().registerEvents(new PlayerMessage(), this);
     }
 
     @Override
